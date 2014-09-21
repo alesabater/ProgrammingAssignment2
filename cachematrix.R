@@ -4,7 +4,6 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-  
   ## Initial variable assignment
   inverse <- NULL
   
@@ -33,7 +32,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-    
   ## gets the existing value assigned for the inverse
   inverse <- x$getinv()
   ## Checks wether the inverse is cached or not
